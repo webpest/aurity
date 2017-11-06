@@ -43,7 +43,6 @@ export default class Search extends Component {
     });
   };
   detailPage = item => {
-    console.log(item);
     this.props.navigation.navigate("UserDetail", { item });
   };
   render() {
